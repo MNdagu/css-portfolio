@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #0d8a17;
+  border-style: border-box;
+}
+header {
+  background-color: rgb(165, 153, 42);
+  padding: 10px 5%;
+}
+h1 {text-align: center;}
+body {
+  background-color: lightblue;
+}
+h2 { text-align: center;}
+.landing {
+  height: 50vh;
+  overflow: hidden;
+}
+.inner_wrap {
+  position: relative;
+  height: 100%;
+}
+
+
+.style {
+  
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+div.mycontainer {
+  width: 100%;
+  overflow: auto;
+}
+div.mycontainer div {
+width: 50%;
+float: left;}
+
+footer {
+  background: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  text-align: center;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
