@@ -1,48 +1,72 @@
 * {
-  padding: 0;
-  margin: 0;
-  color: #0d8a17;
+  padding: 10;
+  margin: 10;
+  color: black;
   border-style: border-box;
 }
 header {
-  background-color: rgb(165, 153, 42);
+  font-size: xx-large;
+  color: rgb(20, 22, 22);
+  font-style: oblique;
+  text-decoration: double;
+  text-align: center;
   padding: 10px 5%;
-}
-h1 {text-align: center;}
-body {
-  background-color: lightblue;
-}
-h2 { text-align: center;}
-.landing {
-  height: 50vh;
-  overflow: hidden;
-}
-.inner_wrap {
-  position: relative;
-  height: 100%;
+  border-style: double; border-radius: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+p{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: larger; font-weight: 500;
+}
+
+
+body {
+  background-size: cover; background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(Images/gradient.jpg);
+  background-color: black;
+}
+h2 { text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large; font-weight: 300;
+
+}
+h3{
+  color: black;
+  text-align: center;
+  padding: 10px 5px;
+  border-style:ridge; border-radius: 25px; border-color: black;
+}
+.card{
+  box-shadow: 2px 4px rgba(60, 73, 148, 0.466);
+  transition: 0.3s;
+  border-radius: 5px 5px;
+}
+.card:hover{
+  box-shadow: 5px 9px rgba(36, 43, 82, 0.39);
+}
 
 .style {
   
-  height: 400px;
+  height: 500px ;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   
 }
-div.mycontainer {
-  width: 100%;
-  overflow: auto;
+.mycontainer {
+  width: 50%;
 }
-div.mycontainer div {
+.mycontainer div{
 width: 50%;
-float: left;}
+float: right;}
 
 footer {
-  background: #333;
-  color: #ffffff;
   text-align: center;
   padding: 10px 0;
   text-align: center;
