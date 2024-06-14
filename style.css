@@ -52,7 +52,7 @@ h3{
 
 .style {
   
-  height: 500px ;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,7 @@ h3{
   
 }
 .mycontainer {
-  width: 50%;
+  width:50%;
 }
 .mycontainer div{
 width: 50%;
