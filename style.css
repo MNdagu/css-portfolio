@@ -44,7 +44,7 @@ h3{
 .card{
   box-shadow:6px 6px rgba(60, 73, 148, 0.466);
   transition: 0.3s;
-  border-radius: 9px 9px;
+  border-radius:9px 9px;
 }
 .card:hover{
   box-shadow: 12px 12px rgba(36, 43, 82, 0.39);
@@ -71,6 +71,8 @@ footer {
   padding: 10px 0;
   text-align: center;
 }
+
+
   
 
 
